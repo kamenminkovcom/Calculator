@@ -1,0 +1,148 @@
+body {
+    margin:0;
+    overflow: hidden;
+    font-family: 'BioRhyme', serif;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.calculator-container {
+    width: 400px;
+    height: auto;
+    position: relative;
+}
+
+.click-taker {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #dadada;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.calculator-title-wrapper {
+    height: 25px;
+}
+
+.hambureger-menu-wrapper {
+    height: 25px;
+    position: relative;
+}
+
+.screen-default {
+    line-height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.input-screen{
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.output-screen {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.calculator-wrapper {
+    border:2px solid black;
+   
+}
+
+.keyboard-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #f2f2f2;
+}
+
+.calculator-keyboard {
+    width:100%;
+    height: 100%;
+    flex-flow: row wrap;
+    font-size: 30px;
+}
+
+.key-default {
+    width: 25%;
+    text-align: center;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.key-default:hover,
+.hambureger-menu:hover {
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.key-equals-operator:hover {
+    background-color: #0078d7;
+}
+
+.hambureger-menu,
+.calculator-title {
+    margin-left: 5px;
+    display: inline;
+}
+
+.standard-mode-btn:hover,
+.advanced-mode-btn:hover {
+    background-color: #86b6dc;
+    cursor: pointer;
+}
+
+.advanced-section-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 30px;
+    flex-flow: row wrap;
+}
+
+.key-special {
+    text-align: center;
+    color: #666666;
+}
+
+.key-memory-default {
+    width: 20%;
+}
+
+.key-clear-default {
+    width: 50%;
+}
+
+.key-special:hover {
+    cursor: pointer;
+    color: #000000;
+    background-color:#e0e0e0
+}
+
+.modes-wrapper {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #e0e0e0;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    z-index: 2;
+}

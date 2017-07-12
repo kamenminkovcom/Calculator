@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="calculator-container">
+            <!--<div class="modes-wrapper hidden js-mode-menu">
+                <section class="standard-mode-btn js-standard-mode-btn">Standard</section>
+                <section class="advanced-mode-btn js-advanced-mode-btn">Advanced</section>
+            </div>-->
+            <div class="calculator-wrapper js-calculator">
+                <div class="calculator-title-wrapper">
+                    <section class="calculator-title">Calculator</section>
+                </div>
+                <div class="hambureger-menu-wrapper">
+                    <section class="hambureger-menu js-hambureger-menu">&#9776</section>
+                    <div class="modes-wrapper hidden js-mode-menu">
+                        <section class="standard-mode-btn js-standard-mode-btn">Standard</section>
+                        <section class="advanced-mode-btn js-advanced-mode-btn">Advanced</section>
+                    </div>
+                </div>
+                <div class="screen-default input-screen js-input-screen">
+                    
+                </div>
+                <div class="screen-default output-screen js-output-screen">
+
+                </div>
+                <div class="advanced-section hidden js-advanced-section">
+                    <div class="advanced-section-default">
+                        <section class="key-special key-memory-default js-memory-clear">MC</section>
+                        <section class="key-special key-memory-default js-memory-recall">MR</section>
+                        <section class="key-special key-memory-default js-memory-plus">M+</section>
+                        <section class="key-special key-memory-default js-memory-minus">M-</section>
+                        <section class="key-special key-memory-default js-memory-start">MS</section>
+                    </div>
+                    <div class="advanced-section-default">
+                        <section class="key-special key-clear-default js-key-clear-last-entity">C</section>
+                        <section class="key-special key-clear-default js-key-clear-all">CE</section>
+                    </div>
+                </div>
+                <div class="keyboard-wrapper keyboard-default">
+                    <div class="calculator-keyboard keyboard-default">
+                        <section class="operator-key key-default js-backspace">&#9003</section>
+                        <section class="operator-key key-default js-percent-key">%</section>
+                        <section class="operator-key key-default js-square-root-key">&#8730</section>
+                        <section class="operator-key key-default js-key-operator" data-value=" * ">&#215</section>
+                        <section class="operand-key key-default js-key-default" data-value="1">1</section>
+                        <section class="operand-key key-default js-key-default" data-value="2">2</section>
+                        <section class="operand-key key-default js-key-default" data-value="3">3</section>
+                        <section class="operator-key key-default js-key-operator" data-value=" / ">&#247</section>
+                        <section class="operand-key key-default js-key-default" data-value="4">4</section>
+                        <section class="operand-key key-default js-key-default" data-value="5">5</section>
+                        <section class="operand-key key-default js-key-default" data-value="6">6</section>
+                        <section class="operator-key key-default js-key-operator" data-value=" + ">+</section>
+                        <section class="operand-key key-default js-key-default" data-value="7">7</section>
+                        <section class="operand-key key-default js-key-default" data-value="8">8</section>
+                        <section class="operand-key key-default js-key-default" data-value="9">9</section>
+                        <section class="operator-key key-default js-key-operator" data-value=" - ">-</section>
+                        <section class="operand-key key-default js-key-operator" data-value=".">,</section>
+                        <section class="operand-key key-default js-key-default" data-value="0">0</section>
+                        <section class="operator-key key-default js-negate">±</section>
+                        <section class="operand-key key-default key-equals-operator js-equals-operator">=</section>
+                    </div>
+                </div>
+            </div>
+            <div class="click-taker hidden js-click-taker">
+            </div>
+        </div>
+    </div>
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script src="./scrips/utils.js"></script>
+    <script src="./scrips/engine.js"></script>
+    <script src="./scrips/calculator.js"></script>
+    <script src="./scrips/validator.js"></script>
+    <script src="./scrips/app.js"></script>
+</body>
+
+</html>
